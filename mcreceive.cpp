@@ -91,6 +91,7 @@ int main(int argc, char *argv[])
         rxpackets++;
 
         printf("Packet %d (%d bytes): %s\n", rxpackets, recv_len, recv_str);
-        system(recv_str);
+        printf("received: %s", recv_str);
+        //system(recv_str);
     }
 }
