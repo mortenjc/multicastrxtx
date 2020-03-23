@@ -20,3 +20,6 @@ specified multicast address and udp port
 
     > ./mcsend multicast_ip udp_port
     > ./mcsend 224.2.3.4 9000
+
+The socket options SO_REUSEADDR and SO_REUSEPORT allows multiple processes
+on the same host to listen on the same port and multicast address simultaneously.
